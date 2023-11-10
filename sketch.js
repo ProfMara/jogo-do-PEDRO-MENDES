@@ -89,7 +89,7 @@ function draw() {
     }
     if (gameState === "END") {
         background(0);
-        fill("white");
+        fill("red");
         textSize(70);
         text("GAME OVER", 90, 300);
 
